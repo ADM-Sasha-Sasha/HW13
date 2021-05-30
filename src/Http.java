@@ -3,7 +3,7 @@ import com.google.gson.Gson;
 import java.net.URI;
 import java.net.http.HttpRequest;
 
-public class HttpUtil {
+public class Http {
     private static Gson gson = new Gson();
 
     private static final String URL = "https://jsonplaceholder.typicode.com";
